@@ -49,7 +49,7 @@ git commit -am "commit description"
 ```
 
 ## Git Push
-frist create branch
+your create frist branch
 ```
 git push --set-upstream origin develop
 
