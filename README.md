@@ -81,26 +81,6 @@ git pull
 git merge branch-name
 ```
 
-## Git Flow Feature Start
-```
-git flow feature start feature-name
-```
-
-## Git Flow Feature Finish
-```
-git flow feature finish feature-name
-```
-
-## Git Flow Release Start
-```
-git flow release start release-name
-```
-
-## Git Flow Release Finish
-```
-git flow release finish release-name
-```
-
 ## Git Branch
 สร้าง branch ใหม่
 ```
@@ -125,6 +105,26 @@ git branch || git branch -a
 กรณีต้องการให้ origin branch ใน local เท่ากับ origin upstream
 ```
 git fetch --prune
+```
+
+## Git Flow Feature Start
+```
+git flow feature start feature-name
+```
+
+## Git Flow Feature Finish
+```
+git flow feature finish feature-name
+```
+
+## Git Flow Release Start
+```
+git flow release start release-name
+```
+
+## Git Flow Release Finish
+```
+git flow release finish release-name
 ```
 
 ## Git Checkout
