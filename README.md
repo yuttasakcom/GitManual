@@ -115,3 +115,58 @@ git checkout branch-name
 ```
 git status
 ```
+
+## Git Delete Branch
+```
+git branch -D branch-name
+```
+
+## Git Delete Local Tag
+ลบแบบ tag เดียว
+```
+git tag -d tag-name
+```
+ลบแบบหลาย tag
+```
+git tag -l | xargs git tag -d
+```
+
+## Git Delete Origin Tag
+ลบแบบ tag เดียว
+```
+git push --delete origin tag-name
+```
+ลบแบบหลาย tag
+```
+git tag -l | xargs -n 1 git push --delete origin
+```
+
+## Git Fetch
+```
+git fetch
+
+or
+
+git fetch origin
+
+or
+
+git fetch --prune || git fetch -p
+```
+
+## Git Remote
+```
+git remote add origin repo-name
+git remote -v
+```
+
+## Git Log
+```
+git log
+```
+
+## Git Tree
+```
+git config --global alias.tree "log --oneline --decorate --all --graph"
+git tree
+```
