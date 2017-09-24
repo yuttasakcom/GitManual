@@ -102,8 +102,29 @@ git flow release finish release-name
 ```
 
 ## Git Branch
+สร้าง branch ใหม่
 ```
 git branch branch-name
+```
+
+ลบ branch local
+```
+git branch -D branch-name
+```
+
+ลบ branch origin
+```
+git push origin --delete branch-name
+```
+
+ดูว่ามี branch อะไรบ้าง
+```
+git branch || git branch -a
+```
+
+กรณีต้องการให้ origin branch ใน local เท่ากับ origin upstream
+```
+git fetch --prune
 ```
 
 ## Git Checkout
@@ -114,11 +135,6 @@ git checkout branch-name
 ## Git Status
 ```
 git status
-```
-
-## Git Delete Branch
-```
-git branch -D branch-name
 ```
 
 ## Git Delete Local Tag
