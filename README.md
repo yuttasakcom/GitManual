@@ -33,6 +33,11 @@ git config --global user.name "Your Name"
 sudo apt install -y git-flow
 ```
 
+## Git Clone
+```
+git clone your-repo
+```
+
 ## Init Git Flow
 ```
 git flow init
