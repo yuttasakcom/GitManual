@@ -163,7 +163,7 @@ git fetch
 
 or
 
-git fetch origin || git fetch upstream
+git fetch remote-name
 
 or
 
