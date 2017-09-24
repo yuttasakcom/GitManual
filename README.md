@@ -8,7 +8,7 @@ sudo apt install -y git
 
 ## Generating a new SSH key
 ```
-ssh-keygen -t rsa -b 4096 -C "yuttasakcom@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
 ```
 
 ## Adding SSH key to the ssh-agent
@@ -24,5 +24,5 @@ cat .ssh/id_rsa.pub
 
 ## Setting Config
 ```
-git config --global user.email "you@example.com"
+git config --global user.email "youremail@example.com"
 git config --global user.name "Your Name"
