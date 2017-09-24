@@ -54,7 +54,7 @@ git add .
 
 ## Git Commit
 ```
-git commit -am "commit description"
+git commit -m "commit description"
 ```
 
 ## Git Push
