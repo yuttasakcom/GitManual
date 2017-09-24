@@ -3,6 +3,7 @@
 
 ## Table of Contents
 - [Install](#install)
+- [Generating a new SSH key](#generating-a-new-ssh-key)
 
 ## Install
 ```
