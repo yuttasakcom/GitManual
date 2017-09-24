@@ -58,7 +58,7 @@ git commit -m "commit description"
 ```
 
 ## Git Push
-your create frist branch case
+กรณีเพิ่งสร้าง project จะใช้คำสั่ง
 ```
 git push --set-upstream origin develop
 
@@ -66,7 +66,7 @@ or
 
 git push -u origin develop
 ```
-normal case
+หลังจากนั้นจะใช้คำสั่งตามปกติ
 ```
 git push
 ```
