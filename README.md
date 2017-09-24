@@ -1,4 +1,5 @@
-## Git Handbook
+## Git Manual
+> คู่มือการใช้งาน Git ฉบับ YoProgrammer
 
 ## Install
 ```
