@@ -85,6 +85,10 @@ git merge branch-name
 สร้าง branch ใหม่
 ```
 git branch branch-name
+
+or
+
+git branch branch-name --track local-branch-name
 ```
 
 ลบ branch local
