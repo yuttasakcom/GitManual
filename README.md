@@ -1,6 +1,9 @@
 ## Git Manual
 > คู่มือการใช้งาน Git ฉบับ YoProgrammer
 
+## Table of Contents
+- [Install](#install)
+
 ## Install
 ```
 sudo apt install -y git
@@ -65,4 +68,49 @@ git push -u origin develop
 normal case
 ```
 git push
+```
+
+## Git Pull
+```
+git pull
+```
+
+## Git Merge
+```
+git merge branch-name
+```
+
+## Git Flow Feature Start
+```
+git flow feature start feature-name
+```
+
+## Git Flow Feature Finish
+```
+git flow feature finish feature-name
+```
+
+## Git Flow Release Start
+```
+git flow release start release-name
+```
+
+## Git Flow Release Finish
+```
+git flow release finish release-name
+```
+
+## Git Branch
+```
+git branch branch-name
+```
+
+## Git Checkout
+```
+git checkout branch-name
+```
+
+## Git Status
+```
+git status
 ```
