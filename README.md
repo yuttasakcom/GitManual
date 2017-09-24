@@ -26,3 +26,37 @@ cat .ssh/id_rsa.pub
 ```
 git config --global user.email "youremail@example.com"
 git config --global user.name "Your Name"
+
+## Instlal Git Flow
+```
+sudo apt install -y git-flow
+```
+
+## Init Git Flow
+```
+git flow init
+```
+
+## Git Add
+```
+git add .
+```
+
+## Git Commit
+```
+git commit -am "commit description"
+```
+
+## Git Push
+frist create branch
+```
+git push --set-upstream origin develop
+
+or
+
+git push -u origin develop
+```
+normal
+```
+git push
+```
