@@ -58,7 +58,7 @@ git commit -m "commit description"
 ```
 
 ## Git Push
-กรณีเพิ่งสร้าง project จะใช้คำสั่ง
+push ครั้งแรก ของ branch จะต้อง set upstream ที่จะ push ไป
 ```
 git push --set-upstream origin develop
 
@@ -66,7 +66,7 @@ or
 
 git push -u origin develop
 ```
-หลังจากนั้นจะใช้คำสั่งตามปกติ
+หลังจากนั้นจะใช้คำสั่ง push ตามปกติ
 ```
 git push
 ```
