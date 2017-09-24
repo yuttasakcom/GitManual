@@ -68,7 +68,7 @@ git push -u origin develop
 ```
 หลังจากนั้นจะใช้คำสั่ง push ตามปกติ
 ```
-git push
+git push || git push origin-name branch-name
 ```
 
 ## Git Pull
