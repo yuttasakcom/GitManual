@@ -186,3 +186,8 @@ git log
 git config --global alias.tree "log --oneline --decorate --all --graph"
 git tree
 ```
+
+# Git Diff
+```
+git diff || git diff file-name
+```
