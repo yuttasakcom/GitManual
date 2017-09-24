@@ -147,7 +147,7 @@ git fetch
 
 or
 
-git fetch origin
+git fetch origin || git fetch upstream
 
 or
 
