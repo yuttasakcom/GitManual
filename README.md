@@ -49,7 +49,7 @@ git commit -am "commit description"
 ```
 
 ## Git Push
-your create frist branch
+your create frist branch case
 ```
 git push --set-upstream origin develop
 
@@ -57,7 +57,7 @@ or
 
 git push -u origin develop
 ```
-normal
+normal case
 ```
 git push
 ```
