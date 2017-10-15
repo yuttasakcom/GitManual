@@ -4,6 +4,7 @@
 ## Table of Contents
 - [Install](#install)
 - [Generating a new SSH key](#generating-a-new-ssh-key)
+- [Git Remote](#git-remote)
 
 ## Install
 ```
@@ -177,6 +178,7 @@ git fetch --prune || git fetch -p
 ## Git Remote
 ```
 git remote add origin repo-name
+git remote rm origin-name
 git remote -v
 ```
 
