@@ -193,7 +193,12 @@ git config --global alias.tree "log --oneline --decorate --all --graph"
 git tree
 ```
 
-# Git Diff
+## Git Diff
 ```
 git diff || git diff file-name
+```
+
+## Git Revert
+```
+git revert <commit>
 ```
