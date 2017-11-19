@@ -1,9 +1,12 @@
 ## Git Manual
-> คู่มือการใช้งาน Git ฉบับ YoProgrammer
+> คู่มือการใช้งาน Git
 
 ## Table of Contents
 - [Install](#install)
 - [Generating a new SSH key](#generating-a-new-ssh-key)
+- [Adding SSH key to the ssh-agent](#adding-ssh)
+- [Show SSH and GPG keys](#ssh-and-gpg-keys)
+- [Setting Config](#setting-config)
 - [Git Remote](#git-remote)
 
 ## Install
@@ -16,7 +19,7 @@ sudo apt install -y git
 ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
 ```
 
-## Adding SSH key to the ssh-agent
+## Adding SSH
 ```
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
