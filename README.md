@@ -205,3 +205,13 @@ git diff || git diff file-name
 ```
 git revert <commit>
 ```
+
+## Git Reset
+```
+git reset --hard <commit>
+```
+
+## Git Cherry Pick
+```
+git cherry-pick <commit>
+```
