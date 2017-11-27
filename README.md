@@ -7,6 +7,7 @@
 - [Adding SSH key to the ssh-agent](#adding-ssh)
 - [Show SSH and GPG keys](#ssh-and-gpg-keys)
 - [Setting Config](#setting-config)
+- [Install Git Flow](#install-git-flow)
 - [Git Remote](#git-remote)
 
 ## Install
