@@ -9,6 +9,7 @@
 - [Setting Config](#setting-config)
 - [Install Git Flow](#install-git-flow)
 - [Git Remote](#git-remote)
+- [Git Changed Repo](#git-changed-repo)
 
 ## Install
 ```
@@ -215,4 +216,9 @@ git reset --hard <commit>
 ## Git Cherry Pick
 ```
 git cherry-pick <commit>
+```
+
+## Git Changed Repo
+```
+git remote set-url origin <new repo>
 ```
