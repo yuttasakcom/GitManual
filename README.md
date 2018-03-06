@@ -185,6 +185,9 @@ git fetch --prune || git fetch -p
 git remote add origin repo-name
 git remote rm origin-name
 git remote -v
+
+# หลังจากสร้าง upstream ให้ update remote
+git remote update
 ```
 
 ## Git Log
